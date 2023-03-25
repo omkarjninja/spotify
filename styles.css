@@ -1,0 +1,208 @@
+body{
+    background-color:#E0E0E0 ;
+}
+/*  NAVIGATION   */
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: ;
+}
+.navi ul li{
+    color: black;
+    font-family:Comfortaa ;
+    text-decoration: none;
+}
+.navi ul a:nth-child(2){
+    margin-left: auto;
+}
+.navi ul a{
+    text-decoration: none;
+}
+.navi ul a:last-child{
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+.text{
+    font-family: 'Alegreya SC', serif;
+}
+.text h1{
+   font-size: 10rem;
+   padding-bottom: 10px;
+}
+.text h4{
+    font-size: 3rem;
+    padding-bottom: 20px;
+ }
+.text p{
+    font-family:Comfortaa ;
+    font-size: 1.3rem;
+
+}
+
+
+.images{
+    display: flex;
+    transition-property: zoom;
+    -moz-transition: ease-in-out;
+    transition-duration: 2s;
+}
+.images img{
+    transition-property: zoom;
+    transition: scale 1s ease-in-out;
+  
+}
+.images img:hover{
+    scale:1.5;
+    border-radius: 16px;
+}
+content{
+    margin-bottom: 20px;
+}
+
+.butt{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #000000;
+    border-radius: 25px;
+    color: white;
+    font-size: 30px;
+    font-family:Comfortaa ;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+linkto p{
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    color: #D27685;
+    font-family:Comfortaa ;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+linkto p a{
+    text-decoration: none;
+}
+
+texty p{
+    text-align: center;
+    margin-top: 30px;
+    font-family:Comfortaa ;
+    margin-bottom: 20px;
+    color: #37306B;
+}
+oneliner h4{
+    text-align: center;
+    margin-top: 30px;
+    font-family:Comfortaa ;
+    margin-bottom: 50px;
+    color: #37306B;
+    font-size: 2rem;
+    background-color: #D27685;
+
+}
+one img{
+    float: left;
+}
+main h3{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 3rem;
+}
+main h5{
+    font-family: 'Padyakke Expanded One', cursive;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main p{
+    font-family: 'Source Code Pro', monospace;
+}
+main bar{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 3rem;
+}
+main one img{
+    margin: 0px 30px 30px 10px;
+}
+two img{
+    float: right;
+}
+two img{
+    margin-right: 10px;
+}
+two h3{
+    padding-left: auto;
+}
+two h5{
+    margin-left: 600px;
+}
+main two img{
+    margin: 0px 30px 30px 10px;
+}
+
+toppy a{
+    text-align: center;
+    color: crimson;
+    text-decoration: none;
+}
+toppy{
+    background-color: burlywood;
+    display: block;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+/*
+#first{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(85,45,83,0.4) 33%, rgba(87,33,34,0.8) 100%);
+}
+#second{
+    background: rgb(235,192,187);
+background: linear-gradient(90deg, rgba(235,192,187,1) 19%, rgba(234,191,185,1) 52%, rgba(125,69,69,1) 96%);
+}
+*/
+.double a{
+    float: left;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.double text h1{
+    padding-top: 50px;
+    margin-left: 1100px;
+    font-family: 'Padyakke Expanded One', cursive;
+    padding-left: 20px;
+}
+.double text h4{
+    margin-left: 1100px;
+    font-family: 'Padyakke Expanded One', cursive;
+}
+.imag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 0px 40px 0px;
+
+}
+.imag i{
+    padding-top: 15px;
+    text-decoration: none;
+    color: #171010;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    transition: all 1s ease-in-out;
+    font-size: 1.3rem;
+}
+.imag i:hover{
+    transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.imag i b{
+    font-family: 'Padyakke Expanded One', cursive;
+}

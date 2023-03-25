@@ -1,0 +1,95 @@
+body{
+    background-color:#BDCDD6 ;
+}
+/*  NAVIGATION   */
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: ;
+}
+.navi ul li{
+    color: black;
+    font-family:Comfortaa ;
+    text-decoration: none;
+}
+.navi ul a:nth-child(2){
+    margin-left: auto;
+    font-size: 30px;
+}
+.navi ul a{
+    text-decoration: none;
+}
+.navi ul a:last-child{
+    margin-left: auto;
+    padding-right: 30px;
+}
+.text{
+    font-family: 'Alegreya SC', serif;
+}
+.text h1{
+   font-size: 10rem;
+   padding-bottom: 10px;
+}
+.text h4{
+    font-size: 3rem;
+    padding-bottom: 20px;
+ }
+ para p{
+    font-family:Comfortaa ;
+    font-size: 1.3rem;
+    margin: 10px 20px 20px 20px;
+ }
+ texty p{
+    text-align: center;
+    margin-top: 20px;
+    font-family:Comfortaa ;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 1.3rem;
+}
+.butt{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #000000;
+    border-radius: 25px;
+    color: white;
+    font-size: 30px;
+    font-family:Comfortaa ;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+spotify iframe{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+.imag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 0px 40px 0px;
+
+}
+.imag i{
+    padding-top: 15px;
+    text-decoration: none;
+    color: #171010;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    transition: all 1s ease-in-out;
+    font-size: 1.3rem;
+}
+.imag i:hover{
+    transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.imag i b{
+    font-family: 'Padyakke Expanded One', cursive;
+}
